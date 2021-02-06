@@ -1,0 +1,37 @@
+.app {
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  width: 90%;
+  text-align: center;
+  padding: 20px;
+}
+
+.inputForm {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh;
+}
+
+.inputBar {
+  border-radius: 5px;
+  width: 30%;
+
+  border: none;
+  padding: 10px;
+  color: aqua;
+}
+
+.inputButton {
+  background: lightcoral;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  min-height: 2vh;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
